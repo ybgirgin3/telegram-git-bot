@@ -30,7 +30,7 @@ You can run your api in the browser to control if it's running truely or not.
 
 **API NEEDS TO BE A JSON FILE**
 
-After getting api you need to paste the url to;
+After getting api you need to paste the api url to;
 
 ```py
 # git_process.py line: 14
