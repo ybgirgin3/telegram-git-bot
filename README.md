@@ -28,7 +28,7 @@ Api needs to be like "https://api.github.com/orgs/(your_community/organization_n
 
 You can run your api in the browser to control if it's running truely or not.
 
-**API NEEDS TO BE AS A JSON FILE**
+**API NEEDS TO BE A JSON FILE**
 
 After getting api you need to paste the url to;
 
