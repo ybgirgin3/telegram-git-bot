@@ -43,6 +43,6 @@ def jsonProcess():
 and it's done !!.
 
 Now you can test your telegram bot with running 'telegram-github-bot.py' file. 
-For getting informations you have to give your bot /commands command and also you can give your bot /dog command to see silly, cute, awesome dog pics :)
+For getting informations you have to give your bot **/commands** command and also you can give your bot **/dog** command to see silly, cute, awesome dog pics :)
 
 ***This file wrote with python3 and it's highly recommended for avoid errors***
