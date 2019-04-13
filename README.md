@@ -20,6 +20,8 @@ updater = Updater("your telegram bot key")	# ADD YOUR KEY HERE
 
 Github entegration is bit of complex (at least for me).
 You need to get your personal account's or community account's api from https://developer.github.com/v3/
+
+
 For example;
 
 
