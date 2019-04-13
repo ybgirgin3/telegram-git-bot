@@ -1,6 +1,6 @@
 # Telegram Git Bot
 
-Basic open source telegram bot for getting any community informations from telegram without entering browser and github account
+Basic telegram bot for getting any community informations from telegram without entering browser and github account
 
 **How to make it work**
 
