@@ -24,7 +24,6 @@ You need to get your personal account's or community account's api from https://
 
 For example;
 
-
 Api needs to be like "https://api.github.com/orgs/(your_community/organization_name)" for organization/community account
 
 You can run your api in the browser to control if it's running truely or not.
