@@ -4,7 +4,7 @@
 
 #How to make it work#
 
-Before running python bot you have to follow telegram bot creation tutorial because you will need bot key to make this bot work. You will get the key from telegram's BotFather after giving your bot name and other needed specificaton. Key is important because everybody that who has this key has access to change your bot completely. You need to add key to here:
+Before running python bot you have to follow telegram bot creation tutorial from https://core.telegram.org/bots because you will need bot key to make this bot work. You will get the key from telegram's BotFather after giving your bot name and other needed specificaton. Key is important because everybody that who has this key has access to change your bot completely. You need to add key to here:
 
 ```py
 # telegram-github-bot.py line: 20
@@ -13,7 +13,7 @@ updater = Updater("your telegram bot key")
 
 #Github Entegration
 Github entegration is bit of complex. (at least for me).
-You need to get your personal account's or community account's api from (https://developer.github.com/v3/)[https://developer.github.com/v3/]
+You need to get your personal account's or community account's api from https://developer.github.com/v3/
 For example;
 Api needs to be like "https://api.github.com/orgs/(community/organization_name)" for organization/community account
 
