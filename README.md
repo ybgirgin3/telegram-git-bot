@@ -1,4 +1,4 @@
-#Telegram Git Bot
+# Telegram Git Bot
 
 **Basic open source telegram bot for getting any community informations from telegram without entering browser and github account**
 
@@ -15,9 +15,11 @@ updater = Updater("your telegram bot key")
 Github entegration is bit of complex. (at least for me).
 You need to get your personal account's or community account's api from https://developer.github.com/v3/
 For example;
-Api needs to be like "https://api.github.com/orgs/(community/organization_name)" for organization/community account
 
-You can run your api in browser to control if it's running truely or not.
+
+Api needs to be like "https://api.github.com/orgs/[your community/organization_name ]" for organization/community account
+
+You can run your api in the browser to control if it's running truely or not.
 
 **API NEEDS TO BE AS A JSON FILE**
 
