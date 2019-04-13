@@ -4,7 +4,7 @@ Basic telegram bot for getting any community informations from telegram without 
 
 **How to make it work**
 
-Before running this python telegram bot you have to install telegrams library which is official for python;
+Before running this python telegram bot you have to install required telegram bot for python;
        
 ```sh
 pip3 install python-telegram-bot
