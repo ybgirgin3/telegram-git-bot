@@ -5,7 +5,7 @@ Basic open source telegram bot for getting any community informations from teleg
 **How to make it work**
 
 Before running this python telegram bot you have to install telegrams library which is official for python;
-
+    
 ```sh
 pip3 install python-telegram-bot
 ```
