@@ -1,4 +1,4 @@
-##Telegram Git Bot
+#Telegram Git Bot
 
 **Basic open source telegram bot for getting any community informations from telegram without entering browser and github account**
 
