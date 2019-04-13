@@ -1,17 +1,22 @@
 # Telegram Git Bot
 
-**Basic open source telegram bot for getting any community informations from telegram without entering browser and github account**
+Basic open source telegram bot for getting any community informations from telegram without entering browser and github account
 
-#How to make it work#
+**How to make it work**
 
-Before running python bot you have to follow telegram bot creation tutorial from https://core.telegram.org/bots because you will need bot key to make this bot work. You will get the key from telegram's BotFather after giving your bot name and other needed specificaton. Key is important because everybody that who has this key has access to change your bot completely. You need to add key to here:
+Before running this python telegram bot you have to install telegrams library which is official for python;
+
+```sh
+pip3 install python-telegram-bot
+```
+then follow telegram bot creation tutorial from https://core.telegram.org/bots because you will need bot key to make this bot work. You will get the key from telegram's BotFather after giving your bot name and other needed specificaton. Key is important because everybody that who has this key has access to change your bot completely. You need to add key to here:
 
 ```py
 # telegram-github-bot.py line: 20
-updater = Updater("your telegram bot key")
+updater = Updater("your telegram bot key")	# ADD YOUR KEY HERE
 ```
 
-#Github Entegration
+**Github Entegration**
 Github entegration is bit of complex. (at least for me).
 You need to get your personal account's or community account's api from https://developer.github.com/v3/
 For example;
@@ -28,12 +33,13 @@ After getting api you need to paste the url to;
 ```py
 # git_process.py line: 14
 def jsonProcess():
-	f = requests.get("your community github api").text 
+	f = requests.get("your community github api").text 	# ADD YOUR API HERE
 	global data
     	data = json.loads(f)
     	return data
 ```
 and it's done !!.
-Now you can test your telegram bot with running 'telegram-github-bot.py' file.
+Now you can test your telegram bot with running 'telegram-github-bot.py' file. 
+For getting informations you have to give your bot /commands command and also you can give your bot /dog command to see silly, cute, awesome dog pics :)
 
 ***This file wrote with python3 and it's highly recommended for avoid errors***
