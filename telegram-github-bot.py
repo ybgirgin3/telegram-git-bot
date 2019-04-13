@@ -6,7 +6,6 @@ date: 6 April 2019
 
 from git_process import *
 from dog_process import *
-# from cat_process import *
 from telegram.ext import Updater, CommandHandler
 
 # makes you feel welcome
@@ -23,7 +22,6 @@ def main():
     # handlers
     dp.add_handler(CommandHandler("hello", hello))
     dp.add_handler(CommandHandler("dog", dog))
-    # dp.add_handler(CommandHandler("cat", cat))
     dp.add_handler(CommandHandler("commands", commands))
     dp.add_handler(CommandHandler("name", name))
     dp.add_handler(CommandHandler("email", email))
