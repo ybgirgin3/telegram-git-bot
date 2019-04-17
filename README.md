@@ -34,11 +34,7 @@ After getting api you need to paste the api url to;
 
 ```py
 # git_process.py line: 14
-def jsonProcess():
 	f = requests.get("your community github api").text 	# ADD YOUR API HERE
-	global data
-    	data = json.loads(f)
-    	return data
 ```
 and it's done !!.
 
