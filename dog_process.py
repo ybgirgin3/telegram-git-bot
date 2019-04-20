@@ -10,6 +10,7 @@ from telegram.ext import Updater
 
 # api getter
 def get_url():
+    # we use random.dog for example but you can change json file with your fav site
     contents = requests.get("https://random.dog/woof.json").json()
     url = contents['url']
     return url
