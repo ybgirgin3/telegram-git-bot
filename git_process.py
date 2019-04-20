@@ -106,10 +106,6 @@ def web_page(bot, update):
     web_page = update.message.reply_text(data['blog'])
     return web_page
 
-def web_page_controller(bot, update):
-    jsonProcess()
-    web_page_controller = update.message.reply_text("https://cp1.biz.nf/beta/login/")
-    return web_page_controller
 
 # End of git_process.py
 
