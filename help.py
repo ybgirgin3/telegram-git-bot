@@ -30,6 +30,8 @@ def help(bot, update):
 	 			shows managers members name and their official github accounts url (not working properly)
 	 		/founded: 
 	 			shows the date of the company/community established (just for honor)
+			/dog:
+				shows some kind of cute dog pics (just for fun)
 		""")
 	return help
 
