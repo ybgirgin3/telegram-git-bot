@@ -9,7 +9,7 @@ from dog_process import *
 
 # main functions that makes other functions work
 def main():
-    updater = Updater('651372077:AAFCyxgIH2FX9s0WMtnbx1TtZtUV33ZqF48')
+    updater = Updater('your bot key here')
     dp = updater.dispatcher
 
     # handlers
