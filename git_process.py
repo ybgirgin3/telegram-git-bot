@@ -5,8 +5,8 @@ from telegram.ext import Updater
 import json
 import requests 
 
-def jsonFucker():
-    f = requests.get("https://api.github.com/orgs/OverseaSoftCommunity").text
+def jsonProcess():
+    f = requests.get("your api here").text
     global data
     data = json.loads(f)
     return data
@@ -21,7 +21,7 @@ def commands(bot, update):
     # follow    : followers & following
     # url       : github account
     # founded   : founded date of community
-    defining = update.message.reply_text("""kullanabileceğiniz komutlar:
+    defining = update.message.reply_text("""commands that you can use:
                     /name,
                     /email,
                     /web_page,
@@ -39,42 +39,42 @@ def commands(bot, update):
 
 # displays git name
 def name(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_name = update.message.reply_text(data['name'])
     return git_name
 
 
 # displays git email address
 def email(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_email = update.message.reply_text(data['email'])
     return git_email
 
 
 # displays how much public git repos existed
 def git_p_repos_count(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_p_repos_count = update.message.reply_text(data['public_repos'])
     return git_p_repos_count
 
 
 # displays repos (!)
 def git_repos(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_p_repos = update.message.reply_text(data['repos_url'])
     return git_p_repos
 
 
 # displays how much public gist existed
 def git_p_gists_count(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_p_gists_count = update.message.reply_text(data['public_repos'])
     return git_p_gists_count
 
 
 # displays how much followers community has
 def git_follow(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_followers = update.message.reply_text(data['followers'])
     git_following = update.message.reply_text(data['following'])
     twins = git_followers, git_following
@@ -83,31 +83,31 @@ def git_follow(bot, update):
 
 # displays offical github repository url of community
 def git_url(bot, update):
-    jsonFucker()
+    jsonProcess()
     git_url = update.message.reply_text(data['html_url'])
     return git_url
 
 
 # the day community founded
 def founded(bot, update):
-    jsonFucker()
+    jsonProcess()
     founded = update.message.reply_text(data['created_at'])
     return founded
 
 
 # displays member's name
 def git_members(bot, update):
-    jsonFucker()
+    jsonProcess()
     members = update.message.reply_text(data['members_url'])
     return members
 
 def web_page(bot, update):
-    jsonFucker()
+    jsonProcess()
     web_page = update.message.reply_text(data['blog'])
     return web_page
 
 def web_page_controller(bot, update):
-    jsonFucker()
+    jsonProcess()
     web_page_controller = update.message.reply_text("https://cp1.biz.nf/beta/login/")
     return web_page_controller
 
