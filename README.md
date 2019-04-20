@@ -39,6 +39,6 @@ f = requests.get("your community github api").text 	# ADD YOUR API HERE
 and it's done !!.
 
 Now you can test your telegram bot with running 'telegram-github-bot.py' file. 
-For getting informations you have to give your bot **/commands** command and also you can give your bot **/dog** command to see silly, cute, awesome dog pics :)
+For testing it you can give your telegram bot **/hello** command and for getting informations you can give your bot **/commands** command and also you can give your bot **/dog** command to see silly, cute, awesome dog pics :)
 
 ***This file wrote in python3 and it's highly recommended for avoid errors***
