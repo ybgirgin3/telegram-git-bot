@@ -6,7 +6,7 @@ import json
 import requests 
 
 def jsonProcess():
-    f = requests.get("your api here").text
+    f = requests.get("https://api.github.com/orgs/OverseaSoftCommunity").text
     global data
     data = json.loads(f)
     return data
@@ -25,7 +25,6 @@ def commands(bot, update):
                     /name,
                     /email,
                     /web_page,
-                    /web_page_controller,
                     /git_p_repos,
                     /git_p_gists,
                     /git_follow,
